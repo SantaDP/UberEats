@@ -78,16 +78,26 @@ body {
   outline: none;
   background: none;
   border: none;
-  padding: 0 10px 15px 32px;
+  padding: 10px 10px 10px 32px;
   border-bottom: 1px solid #75757591;
   width: 100%;
+  text-align: center;
 }
 .serch__icon {
   position: absolute;
-  bottom: 15px;
+  bottom: 10px;
   left: 0;
 }
 
+.serch__input::-moz-placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  color: #626262;
+  opacity: 0.5;
+}
 .serch__input::placeholder {
   font-family: Roboto;
   font-style: normal;
