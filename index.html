@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width">
+  <title>Uber Eats</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/main.js" defer></script>
+
+</head>
+<body>
+  <header class="header">
+    <div class="header__top">
+      <div class="header__logo">
+        <a calss ="header__logo__link"href="javascript:void(0)"><img class="logo"src="/img/logo.png" alt="uber eats"></a>
+      </div>
+      <div class="header__authorization">
+        <a href="javascript:void(0)" class="header__link link">Sign In</a>
+        <a href="javascript:void(0)" class="header__link link">Register</a>
+      </div>
+    </div>
+    <div class="header__serch">
+      <form class="search__form">
+        <label class="serch__label">
+          <input class="serch__input" type="serch" placeholder="Search for restaurant or cuisine">
+          <svg class="serch__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.03638 0C9.30908 0 12 2.61819 12 5.96362C12 7.49091 11.4182 8.87274 10.5454 9.81818L16 15.2727L15.3455 15.9273L9.89087 10.4727C8.80005 11.3455 7.41821 11.9273 5.96362 11.9273C2.69092 11.9273 0 9.30908 0 5.96362C0 2.69092 2.69092 0 6.03638 0ZM0.872681 5.96365C0.872681 8.80002 3.19995 11.0546 5.96362 11.0546C8.79993 11.0546 11.0544 8.80002 11.0544 5.96365C11.0544 3.12729 8.79993 0.872742 5.96362 0.872742C3.1272 0.872742 0.872681 3.20001 0.872681 5.96365Z" fill="#262626"/>
+          </svg>
+        </label>
+      </form>
+    </div>
+    <div class="header__when--to">
+      <div class="header__when--to__when">
+        <div class="when--to__title">When</div>
+        <form class="when__form when--to__form">
+          <select name="when" class="when__select" size="1">
+            <option class="when__option" value="ASAP">ASAP</option>
+            <option class="when__option" value="morning">9.00-12.00</option>
+            <option class="when__option" value="day">12.00-15.00</option>
+            <option class="when__option" value="evening">15.00-18.00</option>
+          </select>
+        </form>
+      </div>
+      <div class="header__when--to__to">
+        <div class="when--to__title">To</div>
+        <form class="to__form">
+          <label>
+          <svg class="to__icon" width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="location">
+            <path id="Combined-Shape" fill-rule="evenodd" clip-rule="evenodd" d="M7 15.2859L11.2392 10.9636C13.5869 8.56988 13.5869 4.68495 11.2392 2.29123C8.89684 -0.0970768 5.10316 -0.0970768 2.76077 2.29123C0.413075 4.68495 0.413075 8.56988 2.76077 10.9636L7 15.2859Z" stroke="#262626"/>
+            <path id="Oval-3" fill-rule="evenodd" clip-rule="evenodd" d="M7 8.5C8.10457 8.5 9 7.60457 9 6.5C9 5.39543 8.10457 4.5 7 4.5C5.89543 4.5 5 5.39543 5 6.5C5 7.60457 5.89543 8.5 7 8.5Z" stroke="#262626"/>
+            </g>
+            </svg>
+            <input class="to__input" name="to" type="text" value="ul. Bolshaya Dmitrovka,22">
+          </label>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <div class="content">
+    <h1 class="content__title">Moscow Restaurants</h1>
+    <div class="content__card">
+      <img src="/img/macdonalds.png" alt="Mac Donalds" class="content_img">
+      <h2 class="card__title">Макдоналдс — Газетный</h2>
+      <p class="card__category">₽₽ • Бургеры</p>
+      <p class="card__time">25 - 35 Min</p>
+    </div>
+    <div class="content__card">
+      <img src="/img/dimSum.png" alt="DimSum" class="content_img">
+      <h2 class="card__title">DimSum & Co — ЦДМ</h2>
+      <p class="card__category">₽ • Японская • Китайская • Азиатская</p>
+      <p class="card__time">40 - 50 Min</p>
+    </div>
+    <div class="content__card">
+      <img src="/img/dvijock.png" alt="Mac Donalds" class="content_img">
+      <h2 class="card__title">ДвижОК — Манежная</h2>
+      <p class="card__category">₽ • Американская • Европейская</p>
+      <p class="card__time">35 - 45 Min</p>
+    </div>
+    <div class="content__card">
+      <img src="/img/nja.png" alt="nja" class="content_img">
+      <h2 class="card__title">НЯ — NHA</h2>
+      <p class="card__category">₽₽ • Вьетнамская</p>
+      <p class="card__time">30 - 40 Min</p>
+    </div>
+    <div class="content__card">
+      <img src="/img/tochkadzi.png" alt="Tochka dzi" class="content_img">
+      <h2 class="card__title">Точка Дзы — Цветной</h2>
+      <p class="card__category">₽₽ • Вьетнамская</p>
+      <p class="card__time">40 - 50 Min</p>
+    </div>
+    <div class="content__card">
+      <img src="/img/cinnabon.png" alt="Cinnabon" class="content_img">
+      <h2 class="card__title">Cinnabon</h2>
+      <p class="card__category">₽ • Выпечка • Десерты • Капкейки</p>
+      <p class="card__time">25 - 35 Min</p>
+    </div>
+    <div class="content__card">
+      <img src="/img/pizzelove.png" alt="PIZZELOVE" class="content_img">
+      <h2 class="card__title">PIZZELOVE</h2>
+      <p class="card__category">₽₽ • Пицца</p>
+      <p class="card__time">15 - 25 Min</p>
+    </div>
+    <div class="content__card">
+      <img src="/img/zu.png" alt="Zju cafe" class="content_img">
+      <h2 class="card__title">Zю кафе — Тверская</h2>
+      <p class="card__category">₽₽ • Японская</p>
+      <p class="card__time">25 - 35 Min</p>
+    </div>
+    <div class="content__card">
+      <img src="/img/bqcafe.png" alt="Bar BQ Cafe" class="content_img">
+      <h2 class="card__title">Bar BQ Cafe — Манежная</h2>
+      <p class="card__category">₽₽₽ • Европейская</p>
+      <p class="card__time">30 - 40 Min</p>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer__content">
+      <div class="footer__top">
+        <div class="footer__logo">
+          <a calss ="footer__logo__link"href="javascript:void(0)"><img class="logo-bottom"src="/img/white-logo.png" alt="uber eats"></a>
+        </div>
+      </div>
+      <div class="footer_midle">
+          <form class="footer__form">
+            <svg class="footer__form__icon" width="7" height="14" viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M3.11206 4.42651C2.65088 2.21118 1.26318 0.545288 0.421021 0.195801V4.53882C1.26318 4.52844 2.37134 4.48547 3.11206 4.42651ZM6.02551 3.96301C5.87207 4.01013 5.25 4.18372 4.01965 4.32935C3.74207 2.85291 3.24097 1.59473 2.58752 0.686401C4.08557 1.33569 5.30383 2.50452 6.02551 3.96301ZM0.421021 5.51733C1.26318 5.50635 2.44348 5.45996 3.22717 5.3949C3.29175 5.91309 3.30798 6.44946 3.30798 7.0011C3.30798 7.70959 3.28271 8.39673 3.17834 9.04602C2.40674 8.98364 1.26318 8.93872 0.421021 8.92871V5.51733ZM0.421021 9.90723V13.8068C1.26318 13.4808 2.51001 12.0077 3.00964 10.0125C2.28821 9.95691 1.26318 9.91736 0.421021 9.90723ZM2.58752 13.3163C3.17639 12.4978 3.64551 11.3992 3.93494 10.1088C4.90271 10.2202 5.51245 10.3499 5.81982 10.4274C5.07971 11.7118 3.94666 12.7245 2.58752 13.3163ZM4.16785 5.29675C4.31555 6.57568 4.29565 7.86853 4.10889 9.14233C5.30383 9.28235 5.9834 9.45142 6.25378 9.53027C6.56531 8.74658 6.74219 7.89465 6.74219 7.0011C6.7417 6.11792 6.57019 5.24329 6.23694 4.42542L6.3949 4.8717C6.35059 4.88745 5.68079 5.11511 4.16785 5.29675Z" fill="white"/>
+            </svg>
+  
+            <select name="language" class="footer__select" size="1">
+              <option class="language__option" value="English">English</option>
+              <option class="language__option" value="Russian">Russian</option>
+              <option class="language__option" value="Ukraine">Ukraine</option>
+            </select>
+          </form>
+          <div class="footer__midle__social">
+            <h2 class="midle__social__title"><span class="social_hash">#</span>UberEats</h2>
+            <div class="social__networks">
+              <a href="javascript:void(0)" class="social__link"><img class="social__icon" src="/img/facebook.png" alt="facebook"></a> 
+              <a href="javascript:void(0)" class="social__link"><img class="social__icon" src="/img/twitter.png" alt="twitter"></a>
+              <a href="javascript:void(0)" class="social__link"><img class="social__icon" src="/img/instagram.png" alt="instagram"></a>
+            </div>
+          </div>
+          <nav class="footer__midle__nav">
+            <ul class="midle__nav">
+              <li class="midle__nav__li"><a href="javascript:void(0)" class="nav__link">About UberEats</a></li>
+              <li class="midle__nav__li"><a href="javascript:void(0)" class="nav__link">Become a Delivery Partner</a></li>
+              <li class="midle__nav__li"><a href="javascript:void(0)" class="nav__link">Become a Restaurant Partner</a></li>
+              <li class="midle__nav__li"><a href="javascript:void(0)" class="nav__link">See all cities</a></li>
+              <li class="midle__nav__li"><a href="javascript:void(0)" class="nav__link">Pricing</a></li>
+              <li class="midle__nav__li"><a href="javascript:void(0)" class="nav__link">Help</a></li>
+              <li class="midle__nav__li"><a href="javascript:void(0)" class="nav__link">FAQs</a></li>
+            </ul>
+          </nav>
+          <div class="footer__midle__store">
+            <a href="javascript:void(0)" class="app--store__link store__link"><img src="/img/app_store.png" alt="App Store" class="store__app--store"></a> 
+            <a href="javascript:void(0)" class="google--play__link store__link"><img src="/img/google_play.png" alt="Google Play" class="store__google--play"></a>
+          </div>
+      </div>
+      <div class="footer__bottom">
+        <span class="footer__bottom__information">© 2017 Uber Technologies Inc.</span>
+        <a href="javascript:void(0)" class="footer__bottom__information-link">Privacy</a>
+        <a href="javascript:void(0)" class="footer__bottom__information-link">Privacy</a>
+      </div>
+    </div>
+  </footer>
+  <button class="scroll-top">
+      <svg width="16" height="25" viewBox="0 0 16 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path id="Shape" d="M8.01829 0.0428432L8.05266 0.0102539L15.6741 7.25758L14.0754 8.70713L8.92855 3.88391V25H7.14284V3.85222L1.96204 8.70713L0.399536 7.25758L8.00311 0.0102539L8.01873 0.0428432H8.01829Z" fill="white"/>
+      </svg>
+    </button>
+  
+</body>
+</html>
