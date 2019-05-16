@@ -89,6 +89,7 @@ body {
   border-bottom: 1px solid #75757591;
   width: 100%;
 }
+
 .serch__icon {
   position: absolute;
   bottom: 10px;
@@ -472,6 +473,7 @@ body {
   }
   .card__img {
     transition: transform 0.3s ease-out 0s;
+    border-radius: 4px;
   }
 
   .content,
