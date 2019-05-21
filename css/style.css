@@ -7,7 +7,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
-  max-width: 2000px;
+  max-width: 1980px;
   margin: 0 auto;
 }
 .scroll-top {
@@ -204,47 +204,47 @@ body {
 
 .card__img--macdonalds {
   height: 86%;
-  background: url(../img/macdonalds.png);
+  background: url(../img/macdonalds.jpg);
   background-size: cover;
 }
 .card__img--DimSum {
   height: 86%;
-  background: url(../img/dimSum.png);
+  background: url(../img/dimSum.jpg);
   background-size: cover;
 }
 .card__img--dvijok {
   height: 86%;
-  background: url(../img/dvijock.png);
+  background: url(../img/dvijock.jpg);
   background-size: cover;
 }
 .card__img--nja {
   height: 86%;
-  background: url(../img/nja.png);
+  background: url(../img/nja.jpg);
   background-size: cover;
 }
 .card__img--tochka {
   height: 86%;
-  background: url(../img/tochkadzi.png);
+  background: url(../img/tochkadzi.jpg);
   background-size: cover;
 }
 .card__img--cinnabon {
   height: 86%;
-  background: url(../img/cinnabon.png);
+  background: url(../img/cinnabon.jpg);
   background-size: cover;
 }
 .card__img--pizzelove {
   height: 86%;
-  background: url(../img/pizzelove.png);
+  background: url(../img/pizzelove.jpg);
   background-size: cover;
 }
 .card__img--zu {
   height: 86%;
-  background: url(../img/zu.png);
+  background: url(../img/zu.jpg);
   background-size: cover;
 }
 .card__img--barbq {
   height: 86%;
-  background: url(../img/bqcafe.png);
+  background: url(../img/bqcafe.jpg);
   background-size: cover;
 }
 
