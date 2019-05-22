@@ -17,7 +17,7 @@ body {
   right: 16px;
   width: 64px;
   height: 64px;
-  border: none;
+  border: 0;
   background: rgba(89, 189, 91, 0.651);
   border-radius: 2px;
   cursor: pointer;
@@ -84,7 +84,7 @@ body {
 .serch__input {
   outline: none;
   background: none;
-  border: none;
+  border: 0;
   padding: 10px 10px 10px 32px;
   border-bottom: 1px solid #75757591;
   width: 100%;
@@ -440,7 +440,7 @@ body {
     flex: 1 1 auto;
   }
   .midle__nav {
-    border: none;
+    border: 0;
   }
   .footer__midle__nav {
     margin-left: 80px;
