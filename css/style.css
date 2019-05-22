@@ -90,6 +90,7 @@ body {
   width: 100%;
   -webkit-appearance: none;
   -moz-appearance: none;
+  appearance: none;
 }
 
 .serch__icon {
@@ -138,6 +139,7 @@ body {
   border-radius: 2px;
   -webkit-appearance: none;
   -moz-appearance: none;
+  appearance: none;
   cursor: pointer;
   background: none;
   padding: 5px;
@@ -167,7 +169,7 @@ body {
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
-  
+  appearance: none;
 }
 .to__form {
   position: relative;
@@ -297,6 +299,7 @@ body {
   color: white;
   -webkit-appearance: none;
   -moz-appearance: none;
+  appearance: none;
   text-transform: uppercase;
   padding-left: 48px;
   cursor: pointer;
